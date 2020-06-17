@@ -1,0 +1,38 @@
+/*structure de la page*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    min-height: 100vh;;    
+    background: -webkit-radial-gradient(rgb(22, 135, 237), rgb(195, 199, 38));
+    background: radial-gradient(rgb(22, 135, 237), rgb(195, 199, 38));
+
+
+}
+
+/*structure du message d'erreur*/
+.message{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center ;
+}
+
+/*mise en forme du "404"*/
+.message h1{
+    font-size: 5cm;
+    margin: 0;
+    font-weight: 900;
+}
+
+/*mise en forme  du lien "go back home"*/
+.message a{
+    text-decoration: none;
+    background-color: rgb(11, 184, 54);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1cm;
+    border-radius: 20px;
+}
